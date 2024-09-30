@@ -4,10 +4,31 @@ Your code goes below.
 
 */
 
+let x = 3;
+let y = 10;
+let z = 5;
+let name = "Des";
+let greeting = 'HEY';
 
+function multiply(num) {
+  x *= num;
+}
 
+function modYBy(num) {
+  y %= num;
+}
 
+function opposite(num) {
+  z = -num;
+}
 
+function makeFullName(str) {
+  name += ' ' + str;
+}
+
+function yellAt(str) {
+  greeting += ', ' + str + '!';
+}
 /*********************************************************************************************************************
 
  * CODE BELOW HERE IS FOR INTERNAL USE ONLY! IT ENSURES THAT THE TESTING *
