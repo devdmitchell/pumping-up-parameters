@@ -7,27 +7,28 @@ Your code goes below.
 let x = 3;
 let y = 10;
 let z = 5;
-let name = "Des";
+let name = "Dessirae";
 let greeting = 'HEY';
 
 function multiply(num) {
-  x *= num;
+  x = x * num;
 }
 
-function modYBy(num) {
-  y %= num;
+function modYBy(num1) {
+  y = y % num1;
 }
 
-function opposite(num) {
-  z = -num;
+function opposite(num2) {
+  z = -num2;
 }
 
+str = 'Mitchell'
 function makeFullName(str) {
-  name += ' ' + str;
+  name = name + ' ' + str;
 }
 
 function yellAt(str) {
-  greeting += ', ' + str + '!';
+  greeting = greeting + ", " + str + '!';
 }
 /*********************************************************************************************************************
 
